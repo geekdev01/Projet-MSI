@@ -1,0 +1,81 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .input-group input {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding-left: 10px;
+  }
+  
+  .input-group .icon {
+    color: #555;
+  }
+  
+  .btn {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #218838;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-login .icon {
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .social-login .icon:hover {
+    color: #000;
+  }
+  
+  .social-login a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-login a:hover {
+    text-decoration: underline;
+  }
+  
